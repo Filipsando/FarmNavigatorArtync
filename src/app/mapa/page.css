@@ -1,0 +1,149 @@
+main {
+    z-index: 1;
+}
+
+header {
+    height: 10vh;
+    background-color: #2E7D32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 48px;
+    gap: 14px;
+
+}
+
+.header-logo img {
+    height: 54px;
+}
+
+.header-seeds {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 10px;
+
+}
+
+.seeds {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.seeds img {
+    height: 15px;
+}
+
+.seeds p {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 6 12px;
+    color: black;
+}
+
+.header-aside {
+    display: flex;
+    gap: 30px;
+    margin-right: 48px;
+    
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    gap: 8px;
+}
+
+.header-info img {
+    height: 20px;
+}
+
+.header-shop {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #2f5d31;
+    border-radius: 50px;
+    padding: 12px 24px;
+    border: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    background-color: #4F9655;
+    height: 100vh;
+    margin-top: 10vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 90vh;
+    z-index: 10;
+}
+
+.menu-option {
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+}
+
+#option {
+    width: 33.33%;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    margin: 0px 8px;
+
+}
+
+.menu-content-option {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    align-items: center;
+}
+
+.menu-content-option-counter {
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+    align-items: center;
+}
+
+.menu-content-option-counter button {
+    background-color: yellow;
+    border-radius: 150px;
+    padding: 5px;
+    border: none;
+    color: #2E7D32;
+    font-size: 18px;
+    width: 30px;
+
+}
+
+.menu-content-option-counter p {
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 4px 8px;
+}
