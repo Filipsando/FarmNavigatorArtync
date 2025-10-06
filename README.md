@@ -12,7 +12,7 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000/mapa) with your browser to see the result.
+Open [http://localhost:3000/mapa](http://localhost:3000/mapa) with your browser to see the result.
 
 Backend is working in dir ./Backend
 
